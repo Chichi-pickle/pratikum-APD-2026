@@ -1,0 +1,209 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="AzFf1-x8fKUwXP_5ajPR">
+    <mxGraphModel dx="548" dy="305" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=none;fontSize=20;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;START&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-4" parent="1" style="rounded=0;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;align=center;whiteSpace=wrap;labelBackgroundColor=none;verticalAlign=middle;" value="&lt;div style=&quot;line-height: 19px; color: rgb(248, 248, 242); padding-top: 0px;&quot;&gt;&lt;font color=&quot;#191914&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;barang_1 = 15000&lt;br&gt;barang_2 = 25000&lt;br&gt;barang_3 = 10000&lt;br&gt;barang_4 = 5500&lt;br&gt;barang_5 = 5000&lt;br&gt;barang_6 = 20000&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="274" x="288" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-12" edge="1" parent="1" source="mF-Xy4TiIwNLjhooDzA7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=#1A1A1A;" target="mF-Xy4TiIwNLjhooDzA7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-6" parent="1" style="rounded=0;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;align=center;whiteSpace=wrap;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(217, 217, 213), rgb(255, 255, 255));&quot;&gt;barang = [barang_1, barang_2, barang_3, barang_4, barang_5, barang_6]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="418" x="216" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-9" edge="1" parent="1" source="mF-Xy4TiIwNLjhooDzA7-4" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="mF-Xy4TiIwNLjhooDzA7-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="375" y="377" as="sourcePoint" />
+            <mxPoint x="425" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF-Xy4TiIwNLjhooDzA7-10" parent="1" style="rounded=0;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;align=center;whiteSpace=wrap;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;total_belanjaan = barang_1 + barang_2 + barang_3 + barang_4 + barang_5 + barang_6&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;pajak = 0.15 * total_belanjaan&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;total_bayar = total_belanjaan + pajak&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;rata_rata = total_bayar + len(barang)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="468" x="191" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-4" parent="1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=#D0CEE2;strokeWidth=2;align=left;verticalAlign=bottom;arcSize=14;absoluteArcSize=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: transparent; color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;barang_1 - barang_6, total_belanjaan = Integer&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;pajak, total_bayar, rata_rata, total_bayar_usd, total_bayar_eur = Float&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nim = String&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;boolean = Boolean&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;barang, barang_slicing = List&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="439" x="206" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-5" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-4" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;" target="mF-Xy4TiIwNLjhooDzA7-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="518" y="241" as="sourcePoint" />
+            <mxPoint x="568" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-6" edge="1" parent="1" source="mF-Xy4TiIwNLjhooDzA7-1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#736CA8;" target="9_wFov5mK0pQcda6ViV7-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="518" y="241" as="sourcePoint" />
+            <mxPoint x="568" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-7" parent="1" style="rounded=0;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;align=center;whiteSpace=wrap;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;total_bayar_usd = total_bayar / 17750&lt;br&gt;total_bayar_eur = total_bayar / 20350&lt;br&gt;barang_slicing = barang[0:5:2]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="292" x="279" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-8" edge="1" parent="1" source="mF-Xy4TiIwNLjhooDzA7-10" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9_wFov5mK0pQcda6ViV7-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="518" y="610" as="sourcePoint" />
+            <mxPoint x="425" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-10" parent="1" style="rounded=0;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;align=center;whiteSpace=wrap;labelBackgroundColor=none;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;nim = &quot;06&quot;&lt;/span&gt;&lt;br style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;boolean = int(nim) &amp;lt; rata_rata&lt;/span&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="203.5" x="323" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;strokeColor=#D0CEE2;align=center;verticalAlign=middle;arcSize=14;absoluteArcSize=1;fontFamily=Consolas, Courier New, monospace;fontSize=7;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;int(nim) &amp;lt; rata_rata&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="106" width="107" x="372" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-13" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-10" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="469" y="603" as="sourcePoint" />
+            <mxPoint x="469" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-17" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-11" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="498" y="653" />
+            </Array>
+            <mxPoint x="552" y="668" as="sourcePoint" />
+            <mxPoint x="552" y="691" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-18" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-11" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="653" />
+            </Array>
+            <mxPoint x="335" y="662" as="sourcePoint" />
+            <mxPoint x="354" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-19" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); display: inline !important;&quot;&gt;False&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="108" x="348" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-20" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); display: inline !important;&quot;&gt;True&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="108" x="477" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-22" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=middle;absoluteArcSize=1;fontFamily=Helvetica;fontSize=7;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(80, 250, 123), rgb(255, 255, 255));&quot;&gt;print(&quot;Daftar Harga Barang :&quot;, barang)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="238" x="794" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="913" y="135.99999999999955" as="sourcePoint" />
+            <mxPoint x="945" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-24" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=top;absoluteArcSize=1;fontFamily=Helvetica;fontSize=7;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Total Belanjaan Sebelum Pajak : Rp&quot;, total_belanjaan)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="335" x="746" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-25" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-22" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="914" y="137" as="sourcePoint" />
+            <mxPoint x="914" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-26" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=top;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Pajak Koperasi 15% : Rp&quot;, pajak)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="33" width="252" x="787" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-27" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-24" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="914" y="180" as="sourcePoint" />
+            <mxPoint x="915" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-29" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-26" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="912" y="350" as="sourcePoint" />
+            <mxPoint x="912" y="323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-30" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=top;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Total Harga Yang Harus Dibayar : Rp&quot;, total_bayar)&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="33" width="383" x="722" y="326" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-31" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=middle;absoluteArcSize=1;fontFamily=Helvetica;fontSize=7;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Rata-rata Harga Barang : Rp&quot;, rata_rata)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="274" x="776" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-32" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-30" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="912" y="356" as="sourcePoint" />
+            <mxPoint x="944" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-33" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=top;absoluteArcSize=1;fontFamily=Helvetica;fontSize=7;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;2 Digit NIM :&quot;, nim)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="169" x="829" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-34" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-31" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="913" y="357" as="sourcePoint" />
+            <mxPoint x="913" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-35" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=top;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Apakah NIM &amp;lt; Rata-Rata? :&quot;, boolean)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="33" width="282" x="772" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-36" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-33" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="913" y="400" as="sourcePoint" />
+            <mxPoint x="914" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-37" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-35" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="911" y="570" as="sourcePoint" />
+            <mxPoint x="911" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-38" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=middle;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Daftar Harga Barang 1, 3, 5 (Slicing) :&quot;, barang_slicing)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="423.5" x="701" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-39" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=middle;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Total Harga Yang Harus Dibayar dalam USD : $&quot;, total_bayar_usd)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="444" x="691" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-40" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-38" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="912" y="568" as="sourcePoint" />
+            <mxPoint x="912" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-41" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#D0CEE2;align=center;verticalAlign=middle;absoluteArcSize=1;fontFamily=Helvetica;fontSize=8;fontColor=light-dark(#1A1A1A, #ffffff);labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;print(&quot;Total Harga Yang Harus Dibayar dalam EUR : $&quot;, total_bayar_eur)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="444" x="691" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-42" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-39" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9_wFov5mK0pQcda6ViV7-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="914" y="567" as="sourcePoint" />
+            <mxPoint x="914" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-43" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-41" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="913" y="677" as="sourcePoint" />
+            <mxPoint x="914" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-44" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;strokeColor=#D0CEE2;align=center;verticalAlign=middle;arcSize=14;absoluteArcSize=1;fontFamily=Helvetica;fontSize=21;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;END&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="863" y="706" as="geometry" />
+        </mxCell>
+        <UserObject label="A" link=" 9_wFov5mK0pQcda6ViV7-47" id="9_wFov5mK0pQcda6ViV7-45">
+          <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;rounded=0;strokeColor=#D0CEE2;strokeWidth=2;align=center;arcSize=14;absoluteArcSize=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" vertex="1">
+            <mxGeometry height="60" width="60" x="395.5" y="815" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-46" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-7" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-45" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="590" as="sourcePoint" />
+            <mxPoint x="426" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wFov5mK0pQcda6ViV7-48" edge="1" parent="1" source="9_wFov5mK0pQcda6ViV7-47" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="9_wFov5mK0pQcda6ViV7-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="A" move="" link=" 9_wFov5mK0pQcda6ViV7-45" id="9_wFov5mK0pQcda6ViV7-47">
+          <mxCell parent="1" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.flowchart.on-page_reference;rounded=0;strokeColor=#D0CEE2;strokeWidth=2;align=center;arcSize=14;absoluteArcSize=1;fontFamily=Helvetica;fontSize=10;fontColor=#1A1A1A;labelBackgroundColor=none;fillColor=#5D7F99;" vertex="1">
+            <mxGeometry height="60" width="60" x="883" y="72" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
