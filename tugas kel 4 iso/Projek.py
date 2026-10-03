@@ -11,7 +11,7 @@ while opsi != 7:
     print("5. Edit Nama Anggota")
     print("6. Hapus Anggota")
     print("7. Keluar")
-    opsi = int(input("Pilih (1-7)"))
+    opsi = int(input("Pilih (1-7) : "))
    
 
     #Profil Kelompok
@@ -29,7 +29,7 @@ while opsi != 7:
     elif opsi == 3:
         count = 0
         for nama in Nama_Anggota:
-            print(str(count), ".", nama) 
+            print(str(count+1), ".", nama) 
             count += 1
     elif opsi == 4:
         NamaBaru = input("Masukkan nama anggota:")
@@ -38,9 +38,9 @@ while opsi != 7:
         print("")
     elif opsi == 6 :
         Pilihan = int(input("Pilih nomor anggota: "))
-        Nama_Anggota.pop(Pilihan)
+        Nama_Anggota.pop(Pilihan-1)
     else:
-        print("JANGAN MASUKKAN ANGHKA LAIN!")
+        print("JANGAN MASUKKAN ANGKA LAIN!")
 
 print("Terima kasih sudah menggunnakan program")
 #pilospi klmplk
