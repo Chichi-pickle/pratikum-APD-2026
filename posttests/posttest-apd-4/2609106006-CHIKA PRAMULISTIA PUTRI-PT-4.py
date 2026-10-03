@@ -64,10 +64,10 @@ while login_sukses and not blokir_akun:
 
                 if nominal < 50000:
                     print("[ERROR] Transfer Gagal! Nominal Minimal Adalah Rp50.000,00.")
-                elif nominal > 1000000:
-                    print("[ERROR] Transfer Gagal! Nominal Maksimal Adalah Rp1.000.000,00.")
                 elif nominal > saldo:
                     print("[ERROR] Transfer Gagal! Nominal Melebihi Saldo Tersedia Saat Ini.")
+                elif nominal > 1000000:
+                    print("[ERROR] Transfer Gagal! Nominal Maksimal Adalah Rp1.000.000,00.")
                 else:
                     break
 
