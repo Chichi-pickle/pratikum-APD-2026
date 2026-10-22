@@ -187,14 +187,14 @@ while True:
                                 print("2. Pekerjaan Sampingan & Paruh Waktu")
                                 print("3. Profesional & Layanan Jasa")
                             
-                                pilihan_kategori = input("Pilih Kategori (1-3): ")
+                                pilihan = input("Pilih Kategori (1-3): ")
 
                                 kategori = ""
-                                if pilihan_kategori == "1":
+                                if pilihan == "1":
                                     kategori = "Pekerjaan Utama (Buruh Harian)"
-                                elif pilihan_kategori == "2":
+                                elif pilihan == "2":
                                     kategori = "Pekerjaan Sampingan & Paruh Waktu"
-                                elif pilihan_kategori == "3":
+                                elif pilihan == "3":
                                     kategori = "Profesional & Layanan Jasa"
 
                                 if kategori != "":
